@@ -1,0 +1,29 @@
+.urna{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-direction:column;
+  max-width: 30vw;
+  margin: 0 auto;
+  background-color: black;
+}
+
+.numeros{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+}
+button{
+  min-width: 40px;
+  min-height: 40px;
+  font-size: 20px;
+}
+h2{
+  color:#fff;
+}
+
+.numeroDeVoto{
+  background-color:#fff;
+  font-size:60px;
+}

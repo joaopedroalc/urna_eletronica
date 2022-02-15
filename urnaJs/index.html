@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Urna Eletrônica</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <main>
+    <div class="urna">
+      <h2>Presidente</h2>
+      
+      <section class="numeros">
+        <button class="valor" onclick="botaoNum(0)">0</button>
+        <button class="valor" onclick="botaoNum(1)">1</button>
+        <button class="valor" onclick="botaoNum(2)">2</button>
+        <button class="valor" onclick="botaoNum(3)">3</button>
+        <button class="valor" onclick="botaoNum(4)">4</button>
+        <button class="valor" onclick="botaoNum(5)">5</button>
+        <button class="valor" onclick="botaoNum(6)">6</button>
+        <button class="valor" onclick="botaoNum(7)">7</button>
+        <button class="valor" onclick="botaoNum(8)">8</button>
+        <button class="valor" onclick="botaoNum(9)">9</button>
+      </section>
+
+      <p class="numeroDeVoto">nulo</p>
+
+      <img src="https://conteudo.imguol.com.br/c/noticias/22/2019/05/06/votacao-eleicao-tecnologia-voto-democracia-1557149801307_v2_450x337.jpg" class="resultadoVoto" alt="urna">
+      
+      <button class="votar" onclick="votarPresidente()">
+        Votar
+      </button>
+      <br>
+
+      <button onclick="cancelar()">
+      Cancelar
+      </button>
+      <br>
+      <button onclick="apagarDigito()">
+        Apagar dígito
+      </button>
+    </div>
+  </main>
+
+  <script src="./script.js"></script>
+</body>
+</html>
